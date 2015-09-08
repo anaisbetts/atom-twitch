@@ -9,3 +9,7 @@ This app is also a great sample for using [Polymer](https://polymer-project.org)
 ### Dragons Be Here
 
 Until / unless atom/atom#8697 is merged, you'll need to have a custom build of Atom that has this change. Without this, using Polymer is much more difficult (though technically possible, via Vulcanize).
+
+### Why doesn't the camera turn off once I toggle the plugin?
+
+afaik there's no way to turn off the camera once you turn it on via `getUserMedia`. I would love to be wrong though!
