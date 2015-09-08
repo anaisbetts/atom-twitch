@@ -1,19 +1,12 @@
 # See https://atom.io/docs/latest/hacking-atom-package-word-count#menus for more details
-'context-menu':
-  'atom-text-editor': [
-    {
-      'label': 'Toggle atom-twitch'
-      'command': 'atom-twitch:toggle'
-    }
-  ]
 'menu': [
   {
     'label': 'Packages'
     'submenu': [
-      'label': 'atom-twitch'
+      'label': 'Twitch.tv'
       'submenu': [
         {
-          'label': 'Toggle'
+          'label': 'Start/Stop Screencasting'
           'command': 'atom-twitch:toggle'
         }
       ]
