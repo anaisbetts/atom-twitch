@@ -8,4 +8,4 @@ This app is also a great sample for using [Polymer](https://polymer-project.org)
 
 ### Dragons Be Here
 
-Until / unless atom/atom#8697 is merged, you'll need to have a custom build of Atom that has this change. Without this, using Polymer is much more difficult (though technically possible, via Vulcanize).
+Until / unless https://github.com/atom/atom/pull/8697 is merged, you'll need to have a custom build of Atom that has this change. Without this, using Polymer is much more difficult (though technically possible, via Vulcanize).
