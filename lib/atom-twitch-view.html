@@ -1,6 +1,7 @@
 <dom-module id="atom-twitch-view">
   <link rel="import" href="./at-video.html">
   <link rel="import" href="./at-login.html">
+  <link rel="import" href="../bower_components/iron-ajax/iron-ajax.html">
   
   <style>
     :host {
@@ -11,19 +12,39 @@
       width: 100%;
       height: 100%;
     }
-    
+      
     #login {
-      order: 0;
       flex: 1 1 auto;
     }
     
+    #chathost {
+      width: 0;
+      height: 0;
+      visibility: hidden;
+      
+      flex: 1 1 auto;
+      position: relative;
+    }
+    
+    #chat {
+      position: absolute;
+      width: 100%;
+      height: 100%;
+    }
+    
     #video {
-      order: 1;
       flex: 0 1 auto;
     }
   </style>
   <template>
-    <at-login id="login"></at-login>
+    <iron-ajax id="userInfo" url="https://api.twitch.tv/kraken" handle-as="json" last-response="{{user}}"></iron-ajax>
+      
+    <at-login id="login" access-token="{{token}}"></at-login>
+    
+    <div id="chathost">
+      <webview id="chat"><webview>
+    </div>
+  
     <at-video id="video"></at-video>
   </template>
   
