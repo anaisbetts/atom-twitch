@@ -1,10 +1,10 @@
 {
   "name": "atom-twitch",
   "main": "./lib/atom-twitch",
-  "version": "0.0.0",
-  "description": "A short description of your package",
+  "version": "0.1.0",
+  "description": "Twitch.tv plugin for Atom",
   "keywords": [],
-  "repository": "https://github.com/atom/atom-twitch",
+  "repository": "https://github.com/paulcbetts/atom-twitch",
   "license": "MIT",
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
