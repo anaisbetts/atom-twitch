@@ -6,10 +6,6 @@ This plugin adds the controls for twitch.tv live coding directly into your edito
 
 This app is also a great sample for using [Polymer](https://polymer-project.org) in an Atom plugin, as well as using ES6 via Babel.
 
-### Dragons Be Here
-
-Until / unless https://github.com/atom/atom/pull/8697 is merged, you'll need to have a custom build of Atom that has this change. Without this, using Polymer is much more difficult (though technically possible, via Vulcanize).
-
 ### Why doesn't the camera turn off once I toggle the plugin?
 
 afaik there's no way to turn off the camera once you turn it on via `getUserMedia`. I would love to be wrong though!
