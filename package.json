@@ -4,9 +4,6 @@
   "version": "0.0.0",
   "description": "A short description of your package",
   "keywords": [],
-  "activationCommands": {
-    "atom-workspace": "atom-twitch:toggle"
-  },
   "repository": "https://github.com/atom/atom-twitch",
   "license": "MIT",
   "engines": {
